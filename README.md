@@ -1,3 +1,3 @@
 # Quiz-
 
-<img src="1.gif">
+<img src="1.png
