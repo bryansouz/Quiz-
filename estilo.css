@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: no-repeat;
+    background-image: url('fundo.png') ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+#conteiner{
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 60%;
+    background-color: rgb(255, 255, 255, 0.030);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+#respostas{
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.535);
+}
+#btn{
+    margin: 15px;
+    padding: 7px;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.528);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    border-right: 2px solid rgb(0, 0, 0) 
+}
+#btn:hover{
+    background-color: rgba(0, 0, 0, 0.775);
+    border-bottom: 2px solid rgb(0, 0, 0)
+}
+#q1{
+    display: none;
+}
